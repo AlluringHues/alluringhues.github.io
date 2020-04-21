@@ -1,11 +1,10 @@
 
-var x = 0 ;
- //Get data from spreadsheet
+//Get data from spreadsheet
 
 function init() {
   Tabletop.init({
     key:
-      "https://docs.google.com/spreadsheets/d/1kmIjfcmrUlkchCUE7YoCfQZ4QMs4LnFhJztKUdroL_Q/edit?usp=sharing",
+      "https://docs.google.com/spreadsheets/d/1dpPtKnv9yQp-FZ-1o8GW-CicmkqpUNVLJpHpw_A6yPg/edit?usp=sharing",
     simpleSheet: true,
   }).then(function (data, tabletop) {
     
@@ -26,15 +25,17 @@ function displayLatestBlog(x) {
     var image=document.querySelector('.image'); 
     image.src = latest.db_image_src;                //Add blog image 
     
+    
     var title = document.querySelector('.titleBlog');
     title.innerHTML = latest.db_title;              //Add title of Latest Blog               
+    
     
     var content = document.querySelector('.content');
     content.innerHTML = latest.db_content;          //Add content of Latest Blog
     console.log(image.src);
     if (
-      image.src === "https://sumedhudar.github.io/#" ||
-      image.src === "https://sumedhudar.github.io/"
+      image.src === "https://alluringhues.github.io/#" ||
+      image.src === "https://alluringhues.github.io/"
     ) {
       var main = document.querySelector(".main");
       main.removeChild(image);
@@ -97,8 +98,5 @@ function displaySidebar(y){
         });
     });
 }
-
-//Display Title and Date on the sidebar 
-
 
     

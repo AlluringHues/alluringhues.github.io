@@ -2,6 +2,9 @@
     width: 100%;
     margin: 0;
 }
+header{
+    height: 200px;
+}
 .inner_header{
     width: 95%;
     height: 100%;
@@ -9,12 +12,14 @@
 }
 .logo_container{
     width: 100%;
-    height: 60%;
+    height: 30%;
     vertical-align: middle;
     text-align: center;
     float: none;
+    border-bottom: #ae9ee2 solid 2px;
 }
-#title{
+.title{
+
     margin: 0px;
 }
 .navigation{
@@ -24,9 +29,11 @@
     margin: 0 auto;
     text-align: center;
     float: none;
+    font-size: 16px;
 }
 .navigation a{
     margin: 0 auto;
+    width: 23%;
 }
 
 .sidebar{

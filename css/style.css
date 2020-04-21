@@ -16,7 +16,7 @@
 header{
   color: white;
   width: 100%;
-  height: 70px;
+  height: 60px;
   margin-bottom: 10px;
 }
 .sidebar {
@@ -55,10 +55,12 @@ footer {
 }
 /*------details------*/
 .title {
+  display: table-cell;
   vertical-align: middle;
-  font-size: 34px;
+  font-size: 40px;
   font-family: "Yellowtail", cursive;
   color: #F86687;
+ 
 }
 .description_top {
   margin-bottom:  1px;
@@ -78,7 +80,7 @@ footer {
 }
 .logo_container {
   height: 100%;
-
+  display: table;
   float: left;
 }
 .navigation {
@@ -87,14 +89,18 @@ footer {
   margin: 0;
 }
 .navigation a {
+  display: table;
   float: left;
+  height: 100%;
   padding: 0 20px;
-  margin-top: 26.5px;
+  /* margin-top: 13.5px; */
 }
 .navigation a:last-child {
   padding-right: 0;
 }
 .navigation a li {
+  display: table-cell;
+  vertical-align: middle;
   padding-bottom: 0;
   font-size: 20px;
   height: 100%;
@@ -150,32 +156,6 @@ span {
   width: 100%;
   text-align: center;
 }
-.blog_sect{
-  width: 96%;
-  margin: 0 auto;
-  border-bottom: #ae9ee2 solid 2px;
-}
-.blog{
-  min-height: 500px;
-}
-.blog_sect h1{
-  color: white;
-  margin: 0;
-  padding-top: 10px;
-  padding-bottom: 0;
-  line-height: 80%;
-}
-
-.blog_sect p{
-  color: rgba(141,141,141);
-  margin: 0;
-
-}
-/*
-.blog_sect:last-child{
-  border-bottom-width: 0px;
-}
-*/
 .card_title{
   width: 50%;
   color: #F86687;

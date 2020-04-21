@@ -34,8 +34,8 @@ function displayLatestBlog(x) {
     content.innerHTML = latest.db_content;          //Add content of Latest Blog
     console.log(image.src);
     if (
-      image.src === "https://pranjalmajmudar.github.io/#" ||
-      image.src === "https://pranjalmajmudar.github.io/"
+      image.src === "https://alluringhues.github.io/#" ||
+      image.src === "https://alluringhues.github.io/"
     ) {
       var main = document.querySelector(".main");
       main.removeChild(image);

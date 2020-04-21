@@ -57,6 +57,16 @@ header{
     padding: 0;
     color: white;
 }
+.main{
+    margin-top: 7%;
+}
+.main h1{
+    color: #F86687;
+    padding-left: 5%;
+}
+.main p{
+    padding-left: 5%;
+}
 .main img{
     width: 100%;
 }

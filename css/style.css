@@ -23,8 +23,8 @@ header{
   width: 42%;
   color: white;
   margin: 0 10px;
-  padding-left: 20px;
-  float: left;
+  padding-right: 22px;
+  float: right;
 }
 .main {
   color: #001B0D;
@@ -32,8 +32,8 @@ header{
   background: white;
   padding: 20px;
   border-radius: 5px;
-  margin: 2% 0 0 2%;
-  float: left;
+  margin: 2% 3% 0 0;
+  float: right;
   box-shadow:  0 0 20px 2px currentColor;
 }
 .whole{
